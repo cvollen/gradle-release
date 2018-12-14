@@ -82,6 +82,6 @@ artifactory {
     }
 }
 
-afterReleaseBuild.dependsOn bintrayUpload
+//afterReleaseBuild.dependsOn bintrayUpload
 
 wrapper.gradleVersion = '1.12'
